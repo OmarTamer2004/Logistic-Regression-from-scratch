@@ -62,6 +62,51 @@ X = np.array([
 y = np.array([0, 0, 0, 1, 1, 1])
 
 # Initialize and train model
+📈 Key Takeaways
+
+Logistic Regression is not just a line — it’s a probability-based classifier.
+
+The model learns by minimizing error using Gradient Descent.
+
+Understanding this from scratch helps you grasp the foundation of many ML algorithms like:
+
+Neural Networks
+
+SVM
+
+Naive Bayes
+
+Decision Trees
+
+🚀 Next Steps
+
+This project is part of a larger educational series:
+
+"Machine Learning From Scratch"
+
+Upcoming implementations:
+
+
+
+KNN
+
+Naive Bayes
+
+Perceptron
+
+Decision Tree
+
+Random Forest
+
+PCA
+
+K-Means
+
+AdaBoost
+
+SVM
+
+LDA
 model = LogisticRegression(lr=0.1, n_iters=1000)
 model.fit(X, y)
 
